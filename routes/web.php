@@ -16,6 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::view('fb','first');
+Route::view('first','first');
 Route::view('login','login');
 Route::view('sign','sign');
